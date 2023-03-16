@@ -2,7 +2,7 @@
 
 import { ChatCompletionRequestMessage, Configuration, OpenAIApi } from "openai";
 import { useState, FormEvent, useRef } from "react";
-import { Message } from "./src/components/message";
+import { Message } from "./src/components/Message";
 import { TextArea } from "./src/components/TextArea";
 import { Loader } from "./src/components/loarder";
 import { useMutation } from "@tanstack/react-query";

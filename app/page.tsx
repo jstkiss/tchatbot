@@ -88,7 +88,7 @@ export default function Home() {
             <Message message={message} key={message.content + i} />
           ))}
           {messages.length === 0 && (
-            <li>No messages yet, start a conversation!</li>
+            <li>Y&apos;a pas de message la con de ta race</li>
           )}
           {mutation.isLoading && (
             <li className="flex items-center w-full p-4">
